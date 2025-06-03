@@ -54,6 +54,6 @@ portfolio-website/
 ## ✍️ Author
 
 **Obeng Agyei Collins**  
-[GitHub](https://github.com/Mediator-web.github.io)
+[GitHub](https://github.com/Mediator-web)
 
 
