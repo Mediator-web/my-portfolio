@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>COLLINS OBENG AGYEI ( DR. Mediator)</h1>
+    <button id="darkToggle">🌙</button>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a software developer passionate about web development and tech solutions.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="medics.png" alt="Project" />
+          <h3>Project One</h3>
+          <p><B>Patient Appointment Management System</B> 
+            <br>
+
+            <b>📘 Project Overview</b> <br>
+            This is a simple Patient Appointment Management System built using HTML, CSS, and JavaScript. The system allows patients to submit appointment requests, log in to view their appointments, and provides an admin portal for managing requests.
+             <h3>
+                Features
+             </h3>
+             <ul>
+            <li><b> User Registration & Login:</b> can register and log in to access their appointment requests.</li>
+                <li> <b>Appointment Requests:</b> Users can fill out a form to request an appointment with a specific type of doctor.</li>
+                <li> <b>Local Storage Management:</b> User and request data is stored locally in the browser.</li>
+              <li> <b> Admin Login:</b> Admins can log in to access a dashboard and manage patient requests.</li>
+            </ul>
+           
+            </p>
+        </div>
+        <!-- More projects... -->
+         <div class ="card">
+            <img src="Pcg.png" alt="Project">
+            <h3>Project Two</h3>
+            <p>PCG Church Website </p>
+                
+                Welcome to the PCG Church website! <br>
+                 This is a simple, responsive website designed to share sermons, events, and contact information for the church community.
+                
+                <h3>Features</h3>
+                <ul>
+                  <li><b> Responsive Design</b>: Works well on desktops, tablets, and mobile devices.</li>  
+               <li> <b>Sermon Videos</b>: Embedded YouTube videos for recent sermons.</li>
+               <li> <b>Event Section</b>: Displays upcoming church events in a grid layout.</li>
+                    <li><b>  Smooth Navigation</b>: Sticky navbar with smooth scrolling to sections</li>
+                </p>
+
+                </ul>
+               
+         </div>
+           <!-- More projects... -->
+           <div class ="card">
+            <img src="Book finder.png" alt="Project">
+            <h3>Project Three</h3>
+            <p>📝 Short Description of the Book Finder App:
+
+                The <b>Book Finder App</b> is a responsive web application that allows users to search for books by title or author using the Google Books API. It features a <b>loading spinner</b> during data fetch, <b>pagination</b> for browsing results, and a <b>search history</b> saved with `localStorage` for quick access to recent queries. The app displays book covers, titles, authors, and brief descriptions in a clean, user-friendly layout.
+                .</p>
+
+         </div>
+           <!-- More projects... -->
+           <div class ="card">
+            <img src="Quiz.png" alt="Project">
+            <h3>Project Four</h3>
+            <p>📝 Short Description of the Quiz Website:
+
+                This is a responsive interactive Quiz App designed to test users with multiple-choice questions. It features a <b>progress bar</b>, a <b>countdown timer</b> for each question, and <b>animated transitions</b> for a modern user experience. Built with HTML, CSS, and JavaScript, the app tracks scores and displays the final result at the end. It provides an engaging way to practice knowledge in a quiz format on both desktop and mobile devices.
+                .</p>
+
+         </div>
+
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Collins. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
